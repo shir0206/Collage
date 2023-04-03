@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 4px;
+  justify-items: stretch;
+  align-items: stretch;
+  width: 90vw;
+  height: 50vh;
+  background: black;
+}
+.item {
+  border-radius: 4px;
+  background: gray;
+}
